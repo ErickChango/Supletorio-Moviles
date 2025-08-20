@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, FlatList } from 'react-native';
 import { appStyles } from '../theme/theme';
 
 interface Product {
@@ -40,4 +39,3 @@ export default function Screen2() {
     </View>
   );
 }
-
